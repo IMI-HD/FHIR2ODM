@@ -1,2 +1,1 @@
-# FHIR2ODM
-Ein Tool zur Konvertierung von FHIR Questionnaire in CDISC ODM
+FHIR2ODM is a converter tool to convert FHIR Questionnaire resources to CDISC ODM files. The FHIR Questionnaire resoruce is loaded from a JSON file. The file should contain one resource. All items of type "GROUP" are looped through, as well as nested items. The conversion of each item is done according to the conversion logic described in the method. The ODM file is built by the ODMFileBuilder class, which is specifically written for the purpose of the converter.
